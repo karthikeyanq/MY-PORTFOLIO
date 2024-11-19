@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.option ul li ,.login{
+    display:inline;
+    list-style-type: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 30px;
+
+}
+.option ul li:nth-child(5) a {
+   margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    margin:5px 10px;
+    font-size: 1.2rem;
+}
+.logo{
+    margin-left:135px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.login{
+    padding:5px 15px;
+    margin-right: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+.bg-video {
+    position: fixed;          /* Keeps the video fixed in the background */
+    top: 0;
+    left: 0;
+    width: 100vw;             /* Full width of the viewport */
+    height: 100vh;            /* Full height of the viewport */
+    z-index: -1;              /* Send the video behind other elements */
+    object-fit: cover;        /* Maintain aspect ratio and cover the entire area */
+    object-position: center;  /* Center the video */
+    pointer-events: none;     /* Prevent interaction with the video */
+}
+a:hover{
+    text-decoration:underline;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    width:75%;
+  
+
+}
+.head h1{
+    margin-top: 200px;
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+    margin-left:140px;
+}
+.head button{
+    width: 200px;
+    padding: 15px;
+    margin-left: 140px;
+    margin-top:90px ;
+    color: black;
+    background-color: #ACE1AF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid  #ACE1AF;
+}
+.head button:hover{
+   
+    background-color: transparent;
+    cursor: pointer;
+}
+.bio {
+    margin-top:130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    background-color:black;
+}
+.part1{
+    padding-top: 180px;
+    width: 50%;
+    margin-left: 140px;
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+.part2{
+    width:30%;
+    padding-top: 180px;
+    margin-right:140px ;
+    font-size: 1.1rem;
+    font-family: montserrat;
+    text-align: justify;
+}
+.read{
+    width: 170px;
+    padding: 15px;
+    color: black;
+    background-color: #ACE1AF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 100px;
+    border: 2px solid  #ACE1AF;
+    cursor: pointer;
+
+
+}
+.part2 button:hover{
+    background-color: transparent;
+    color:whitesmoke;
+}
+.skill{
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    padding-top: 180px;
+    margin-left: 140px;
+}
+.photo img{
+    width: 650px;
+}
+.points{
+    padding-top: 180px;
+    width: 30%;
+    color: whitesmoke;
+    margin-right:140px ;
+}
+.point1,.point2,.point3{
+    margin-bottom: 75px;
+    word-spacing:0.5px;
+    text-align: justify;
+}
+h3{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.help{
+    background-color: black;
+    border: 2px solid black;
+}
+.help h1{
+    padding-top: 180px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.trio {
+    width: 80%;
+    margin: 70px 140px;
+    display: flex;
+    justify-content: space-between; /* This adds space between the images */
+    color: whitesmoke;
+   
+ }
+ 
+ .one, .two, .three {
+    width: 32%;
+    margin: 5px;
+    text-align: justify;
+ }
+ 
+ .one img,.two img,.three img {
+    width: 100%;
+    height: auto;
+    margin: 5px; /* Adds space between the images */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+ }
+
+
+h2{
+    margin: 10px;
+    margin-left: 0px;
+}
+.work{
+    background-color: black;
+    border: 2px solid black;
+}
+.work h1{
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.grid{
+    border: 2px solid black;
+    width: 80%;
+    margin:70px 140px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+.box{
+    padding:3px;
+}
+.work button{
+    width: 150px;
+    padding: 15px;
+    color: black;
+    background-color: #ACE1AF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 100px;
+    border: 2px solid  #ACE1AF;
+    cursor: pointer;
+    margin-left: 45%;
+}
+.contact{
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin:70px 140px;
+    width:50%
+}
+.mail{
+    margin-top:150px;
+    margin-right:170px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+  
+}
+input,textarea{
+    background-color: transparent;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom:50px;
+}
+.left h1{
+    color: white;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.left p{
+    text-align: justify;
+    font-size: 1.1rem;
+    margin: 40px;
+}
+footer{
+    background-color: black;
+    border:2px solid black;
+}
+hr{
+    border:2px solid white;
+    margin:70px 140px;
+    margin-bottom: 0px;
+    color: white;
+}
+footer p{
+    color: whitesmoke;
+    margin:50px 140px;
+}
+.mail button{
+    width: 150px;
+    padding: 10px;
+    color: black;
+    background-color: #ACE1AF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border:2px solid  #ACE1AF;
+    cursor: pointer;
+}
+.mail button:hover{
+background-color: transparent;
+color: whitesmoke;
+}
+#name,#email,#message{
+    color:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.left p i{
+    margin-right: 20px;
+}
+#name:focus,#email:focus,#message:focus{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        width:100%;
+    }
+    .navbar{
+        color:whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .option ul li ,.login{
+        display:inline;
+        list-style-type: none;
+        cursor: pointer;
+        margin: 3px;
+        margin-top: 20px;
+    }
+    .option ul li:nth-child(5) a {
+        margin-right: 10px;
+     }
+     a{
+        text-decoration: none;
+        color:whitesmoke;
+        margin :1px;
+        font-size: 1rem;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-left:20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .bg-video {
+        position: fixed;          /* Keeps the video fixed in the background */
+        top: 0;
+        left: 0;
+        width: 100vw;             /* Full width of the viewport */
+        height: 100vh;            /* Full height of the viewport */
+        z-index: -1;              /* Send the video behind other elements */
+        object-fit: cover;        /* Maintain aspect ratio and cover the entire area */
+        object-position: center;  /* Center the video */
+        pointer-events: none;     /* Prevent interaction with the video */
+    }
+
+}
